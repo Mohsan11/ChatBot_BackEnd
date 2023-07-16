@@ -9,7 +9,7 @@ const {
 } = require("langchain/prompts");
 const { ChatOpenAI } = require("langchain/chat_models/openai");
 
-const Port = process.env.PORT || 5000;
+const Port = process.env.PORT || 3000;
 require("dotenv").config();
 app.use(express.json());
 app.use(cors());
